@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="container mx-auto p-4 bg-blue-50 font-poppins">
+    <!-- Navbar Section -->
+    <nav>
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar-start flex">
+                <img src="./assets/logo.png" alt="">
+                <a class="btn btn-ghost text-xl">DevBoard</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+            </div>
+            <div class="navbar-end">
+              <a href="index.html" class="btn bg-[#3752FD] text-white">Back to Desk</a>
+            </div>
+          </div>
+    </nav>
+    <br>
+    <!-- Blog Title -->
+     <h1 class="font-extrabold text-center">Blogs</h1>
+        <br>
+     <!-- FAQ section -->
+      <section>
+        <h1 class="font-bold bg-white rounded-xl pb-3 pt-3 ">Question-1: What are the different ways to select an element in the DOM?</h1>
+        <h1 class="font-light bg-white rounded-xl pb-3 pt-3 mt-2 ">"Use getElementById, getElementsByClassName, getElementsByTagName, querySelector, querySelectorAll, getElementsByName, DOM traversal, XPath, or data attributes to select elements."</h1>
+        <br>
+        <h1 class="font-bold bg-white rounded-xl pb-3 pt-3 ">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+        <h1 class="font-light bg-white rounded-xl pb-3 pt-3 mt-2 ">innerHTML includes HTML tags, innerText renders visible text only, and textContent includes all text (visible and hidden) without HTML tags.</h1>
+        <br>      
+        <h1 class="font-bold bg-white rounded-xl pb-3 pt-3 ">Question-3: What is event delegation in the DOM?</h1>
+        <h1 class="font-light bg-white rounded-xl pb-3 pt-3 mt-2 ">Event delegation is a technique where you attach a single event listener to a parent element to handle events for its child elements, leveraging event bubbling.</h1>
+        <br>
+        <h1 class="font-bold bg-white rounded-xl pb-3 pt-3 ">Question-4: What is event bubbling in the DOM?</h1>
+        <h1 class="font-light bg-white rounded-xl pb-3 pt-3 mt-2 ">Event bubbling is the process where an event triggered on a child element propagates up through its ancestors in the DOM hierarchy.</h1>
+        <br>
+        <h1 class="font-bold bg-white rounded-xl pb-3 pt-3 ">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+        <h1 class="font-light bg-white rounded-xl pb-3 pt-3 mt-2 ">Create elements with document.createElement(), add them using append() or appendChild(), and remove them with remove() or removeChild().</h1>
+      </section>
+</body>
+</html>
